@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialog Project</title>
+    <link rel="stylesheet" href="Dialog.css">
+    <Script src="FA2.js"></Script>
+</head>
+<body>
+    <dialog id="favDialog" class="favDialog">
+        <form method="dialog" id="dialog-form">
+            <div class="Dialog-Header">
+                <i id="Add-icon" class="fa-solid fa-user-plus"></i>
+                <span id="Header-Text">NEW USER<span> <i id="Fa-xmark" class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="Dialog-Input">
+                <div class="Upload">
+                <label for="No-File">Upload an Image</label>
+                <input type="file" name="No-File" id="No-File" accept=".jpeg, .png .jpg" multiple>
+                </div>
+                <div class="Other">
+                <p>upload other</p>                
+                </div>        
+            </div>
+            <manu>
+                <div class="Dialog-Footer">
+                    <button id="Clear-Button">Clear</button>
+                    <button type="submit" id="Confirm-Button">Confirm</button>
+                    <button id="Cancel-Button">Cancel</button>
+                </div>   
+            </manu> 
+        </form>
+    </dialog>
+    <div class="dilogIconButton">
+   <!-- <button class="dialogIcon">
+            <i name="close-outline" style="color:white;" id="solid-xmark" class="fa-solid fa-xmark fa-1x"></i>
+            <img src="avatar-5.png" alt="Patrick" class="dialogIcon-avatar2">
+            
+    </button>
+    <button class="dialogIcon">
+        <i name="close-outline" style="color:white;" id="solid-xmark" class="fa-solid fa-xmark fa-1x"></i>
+        <img src="avatar-5 (1).png" alt="Patrick" class="dialogIcon-avatar2">  
+    </button> -->
+    
+    <button id="openDialog" class="openDialog-button" >+</button>
+    </div>
+    <output></output>
+    <script src="Dialog.js"></script>
+</body>
+</html>  
